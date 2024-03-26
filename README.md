@@ -24,7 +24,7 @@ $ forge build
 ### Test
 
 ```shell
-$ forge test
+$ forge test --fork-url $RPC_URL --evm-version cancum --match-path test/SwapContractTest.sol
 ```
 
 ### Format
